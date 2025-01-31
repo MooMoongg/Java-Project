@@ -13,8 +13,12 @@ public class CastEx01 {
 		double d2 = 100.8;
 		// 명시적 형변환 (int), 큰 것을 작은것에 넣었으니까 이건 다운캐스팅이라고 부름
 		int n2 = (int)d2; // double을 int로 변환할 수 없어요
-		System.out.println(n2);
+		System.out.println(n2); // 단점 : 데이터가 유실될 수 있다.(큰것을 작은것에 구겨넣다보니까)
 		
+		int money = 130;
+		System.out.println(130/100); // int 와 int 를 나눈 것이기 때문에 1 이나옴
+		System.out.println(money/100);
+		System.out.println(money/100.0); //int 나누기 double을 하면 double이 나옴
 		
 	}
 
