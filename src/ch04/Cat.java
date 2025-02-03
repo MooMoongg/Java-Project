@@ -15,5 +15,10 @@ public class Cat {
 		System.out.println("고양이가 탄생함");
 		System.out.println("n : " + n);
 		System.out.println("c : " + c);
+		
+		
+		//String n, String c는 지역변수 = Cat()이라는 생성자(메서드의 일종)가 가진 지역변수
+		name = n;
+		color = c;
 	}
 }

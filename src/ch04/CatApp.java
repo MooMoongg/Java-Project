@@ -15,6 +15,7 @@ public class CatApp {
 		Cat c2 = new Cat("집사2", "노란색"); //고양이 한마리가 힙공간에 만들어짐
 		System.out.println(c2.name);
 		System.out.println(c2.color);
+
 	}
 
 }
